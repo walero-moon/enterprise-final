@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'echo Student Number: A01210162 | Group Number: 1'
+                sh 'echo \"Student Number: A01210162 | Group Number: 1\"'
                 sh 'pip install -r requirements.txt'
             }
         }
